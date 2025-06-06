@@ -4,7 +4,7 @@ Wearable ultrasound technology supports real-time, mobile physiological monitori
 * Wearable_ultrasound system pipeline:
     * Wearable --> Edge device --> Server device
 * Wearable pipeline:
-    * Transducers --> Channel subsampling --> ADC --> Data reduction Techniques --> MCU --> Wireless TX 
+    * Transducers --> Channel subsampling --> ADC --> Data reduction Techniques --> MCU --> Wireless transmitter 
 # Code Organization
 The overall wearable ultrasound system pipeline is defined in the `Top` file.
 
