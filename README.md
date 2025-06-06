@@ -11,7 +11,7 @@ The overall wearable ultrasound system pipeline is defined in the `Top` file.
 * `Wearable.py`: This is the core module responsible for collecting and processing data directly from the tissue.
 * `Edge.py`: This component receives data from the wearable module and performs reconstruction using sparse signal processing techniques.
 * `Server.py`: This module gathers processed data from both the wearable and edge devices, and further enhances reconstruction using machine learning algorithms.
-* `Optimizer.py`: This module implements convex optimization techniques to balance power consumption and latency in wearable ultrasound systems. Its primary objective is to minimize on-device power usage by determining the optimal combination of compression scenario, data reduction method, and compression ratio.
+
 
 # Installing Wearable_ultrasound
 The code is implemented in Python and relies on minimal external dependencies, all of which are specified in the `requirements.txt` file.
